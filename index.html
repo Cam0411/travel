@@ -90,6 +90,28 @@
         </div>
     </div>
     <div id="content">
+       <div class="grid content__src-box">
+           <div class="content__search__moblie-box">
+               <div class="search__moblie-box">
+                <h1 class="search__moblie-heading"><i class="fas fa-hotel"></i> HOTELS</h1>
+               </div>
+               <div class="search__moblie-box">
+                <h1 class="search__moblie-heading"><i class="fas fa-car"></i> CAR RENTALS</h1>
+               </div>
+               <div class="search__moblie-box">
+                <h1 class="search__moblie-heading"> <i class="fas fa-plane-departure"></i> FLIGHTS</h1>
+               </div>
+               <div class="search__moblie-box">
+                <h1 class="search__moblie-heading"><i class="fas fa-suitcase-rolling"></i>TRIP</h1>
+               </div>
+               <div class="search__moblie-box">
+                <h1 class="search__moblie-heading"><i class="fas fa-ship"></i>CUISES</h1>
+               </div>
+               <div class="search__moblie-box">
+                <h1 class="search__moblie-heading"><i class="fas fa-snowboarding"></i> ACTIVITIES</h1>
+               </div>
+           </div>
+       </div>
        
     </div>
     <div id="footer">
@@ -140,11 +162,15 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript">
-              var selector = '.search__1';
+              var selector = '.search__1 , .search__moblie-box ';
 $(selector).on('click', function(){
     $(selector).removeClass('active');
     $(this).addClass('active');
 });
     </script>
+    <!-- moblie__active -->
+
+
+
 </body>
 </html>

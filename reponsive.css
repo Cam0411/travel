@@ -67,6 +67,29 @@
 {
     display: none;
 }
+#content
+{
+    background: linear-gradient(to right, #fa9e1b ,#8d4fff );
+    height:650px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.search__moblie-box  
+{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.content__src-box 
+{
+    display: block;
+}
+.content__search__moblie-box 
+{
+    height: 520px;
+    margin-top: 80px;
+}
 }
 
 @media (min-width:600px) and (max-width:1020px){
@@ -110,5 +133,9 @@
 .search__1  
 {
     display: none;
+}
+.content__src-box 
+{
+    display: block;
 }
 }
