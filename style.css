@@ -101,6 +101,7 @@
       color: #ffff;
       margin-top: 15px;
       padding-left: 10px;
+      font-weight: 800;
   }
   .header__menu 
   {
@@ -171,7 +172,7 @@ a.header__hover:hover
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-image: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url(asset/bg_header.webp);
+    background-image: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url(asset/beach-1853364_1280.jpg);
     overflow: hidden;
      position: relative;
      top: -120px;
