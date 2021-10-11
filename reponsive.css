@@ -1,0 +1,102 @@
+@media (max-width:600px){
+    .header__icon 
+    {
+        display: block;
+        background:rgba(54, 19, 84, .6) ;
+    }
+    .header__icon-flex 
+    {
+        display: none;
+    }
+    .header__menu
+    {
+        display: none;
+    }
+    .header__search 
+    {
+       position: absolute;
+       right: 12%;
+       padding: 10px;
+       color: #ffff;
+       margin-top: 5px;
+       cursor: pointer;
+       transition: 0.4s;
+    }
+    .menu__tablet 
+    {
+        display: block;
+    }
+    #slider 
+    {
+        margin-top: -140px;
+        height: 120vh;
+    }
+    .slider__flex 
+    {
+        height: 900px;
+    }
+    .modal__content
+    {
+        width: 100%;
+    }
+    .slider__discover 
+{
+    color: #ffff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 60px;
+}
+.dis__font
+{
+    font-family: 'Concert One', cursive;
+    font-size: 30px;
+
+}
+.heading__travel 
+{
+    font-size: 20px;
+}
+
+.slider__explore
+{
+    width: 200px;
+}
+}
+
+@media (min-width:600px) and (max-width:1020px){
+    .header__menu
+    {
+        display: none;
+    }
+    .header__search 
+{
+   position: absolute;
+   right: 6%;
+   padding: 10px;
+   color: #ffff;
+   margin-top: 5px;
+   cursor: pointer;
+   transition: 0.4s;
+}
+.menu__tablet 
+{
+    display: block;
+}
+.slider__discover 
+{
+    color: #ffff;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    line-height: 80px;
+}
+.dis__font
+{
+    font-family: 'Concert One', cursive;
+    font-size: 60px;
+
+}
+}

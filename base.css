@@ -1,0 +1,24 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+.grid 
+{
+    margin-left: auto;
+    margin-right:auto ;
+    width: 1200px;
+    max-width: 100%;
+     padding-left: 20px;
+     padding-right: 20px;
+}
+@keyframes fadeIn {
+    from{
+        transform: translateX(-100%);
+    }to {
+        transform: translateX(0);
+    }
+}
