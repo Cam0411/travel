@@ -299,6 +299,11 @@ a.header__hover:hover
     justify-content: center;
     align-items: center;
     font-size: 12px;
+    transition: 0.4s;
+}
+.search__1 i 
+{
+    padding: 5px;
 }
 .search__heading 
 {
@@ -308,14 +313,35 @@ a.header__hover:hover
 .search__2 
 {
     border-top-left-radius: 94px;
+    background: #fa9e1b;
+    color: #ffff;
 }
 .search__3 
 {
     border-top-right-radius: 94px;
+
+}
+.search__1:hover 
+{
     background: #fa9e1b;
     color: #ffff;
 }
 #content
 {
     background: linear-gradient(to right, #fa9e1b ,#8d4fff );
+}
+.color__coma 
+{
+    opacity: 0.4;
+
+}
+.coma 
+{
+    font-size: 20px;
+    border-radius: 50%;
+}
+.search__1.active 
+{
+    background: #fa9e1b;
+    color: #ffff;
 }
