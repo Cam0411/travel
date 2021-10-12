@@ -243,8 +243,153 @@
 {
     width: 100%;
 }
+.content__package-box 
+{
+    height: 520px;
+}
+.content__package-box-heading  
+{
+    font-size: 20px;
+    line-height: 28px;
+}
+.content__package-read-more 
+{
+    width: 100%;
+    text-align: center;
+}
+.content__package-about 
+{
+    font-size: 14px;
+}
+#content__offer
+{
+    height: 2500px;
+    background: #f3f6f9;
+}
+.content__ofer-flex
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 2500px;
+}
+.offer__all-box
+{
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.content__offer-heading
+{
+    margin-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+.offer__bg 
+{
+    width: 100%;
+    height: 100%;
+    background: url("asset/island.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+ 
 }
 
+.offer-box
+{
+    width: 852px;
+    height: 512px;
+     margin-bottom: 20px;
+     display: flex;
+     flex-direction: column;
+     margin-left: 0px;
+     margin-top: 20px;
+}
+.offer__box-all-txt
+{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+}
+.offer__box-heading 
+{
+    color: #fa9e1b;
+    font-weight: 900;
+}
+.offer__color
+{
+    font-size: 13px;
+    color: #888;
+    font-weight: 700;
+}
+.offer__box-all-txt img
+{
+    width: 100px;
+    margin-bottom: 28px;
+}
+.offer__about
+{
+    line-height: 28px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #888;
+}
+.offer__bg-2
+{
+    background: url("asset/offer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.offer__bg-3 
+{
+    background: url("asset/offer3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.offer__bg-4 
+{
+    background: url("asset/offer2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+}
+@media (max-width:400px){
+    #content__package 
+    {
+        height: 800px;
+    }
+    .content__package-flex 
+    {
+        height: 800px;
+    }
+    .content__package-box 
+{
+    height: 650px;
+}
+.content__package-box-heading  
+{
+    font-size: 17px;
+    line-height: 28px;
+}
+.content__package-read-more 
+{
+    width: 100%;
+    text-align: center;
+}
+.content__package-about 
+{
+    font-size: 11px;
+}
+
+}
 @media (min-width:600px) and (max-width:1020px){
     .header__menu
     {
@@ -409,10 +554,119 @@
 {
     width: 100%;
 }
+.content__package-box 
+{
+    height: 500px;
+}
+.content__package-box-heading  
+{
+    font-size: 30px;
+}
+.content__package-read-more 
+{
+    width: 250px;
+    text-align: center;
+}
+#content__offer
+{
+    height: 1600px;
+    background: #f3f6f9;
+}
+.content__ofer-flex
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1600px;
+}
+.offer__all-box
+{
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.content__offer-heading
+{
+    margin-bottom: 40px;
+}
+.offer__bg 
+{
+    width: 50%;
+    height: 100%;
+    background: url("asset/island.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.offer__bg-2
+{
+    background: url("asset/offer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.offer-box
+{
+    width: 852px;
+    height: 312px;
+     margin-bottom: 20px;
+     display: flex;
+     margin-left: 20px;
+     margin-top: 20px;
+}
+.offer__box-all-txt
+{
+    width: 50%;
+    padding: 0px 20px 0px 20px;
+}
+.offer__box-heading 
+{
+    color: #fa9e1b;
+    font-weight: 900;
+}
+.offer__color
+{
+    font-size: 13px;
+    color: #888;
+    font-weight: 700;
+}
+.offer__box-all-txt img
+{
+    width: 100px;
+    margin-bottom: 28px;
+}
+.offer__about
+{
+    line-height: 28px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #888;
+}
+.offer__bg-3 
+{
+    background: url("asset/offer3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.offer__bg-4 
+{
+    background: url("asset/offer2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 }
 @media(min-width:1021px){
     .tour__about 
 {
     width: 700px;
+}
+.offer__about
+{
+    width: 220px;
 }
 }
