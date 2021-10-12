@@ -455,6 +455,9 @@ appearance: none;
     padding: 15px;
     height: 46px;
     outline: none;
+    -webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
     border: none;
 
 }
@@ -464,9 +467,7 @@ appearance: none;
     width: 77px;
     padding: 15px;
     height: 46px;
-    -webkit-appearance: none;
--moz-appearance: none;
-appearance: none;
+    
 cursor: pointer;
     background: #fff;
 }
