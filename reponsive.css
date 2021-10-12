@@ -70,7 +70,7 @@
 #content
 {
     background: linear-gradient(to right, #fa9e1b ,#8d4fff );
-    height:650px;
+    height:1350px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -87,8 +87,161 @@
 }
 .content__search__moblie-box 
 {
-    height: 520px;
-    margin-top: 80px;
+    height: 650px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.form__input 
+{
+    padding: 10px;
+    width: 100%;
+}
+.heading__form 
+{
+    color: #ffff;
+    margin-bottom: 20px;
+}
+.destination__box 
+{
+    width: 100%;
+    padding: 15px;
+    height: 46px;
+    outline: none;
+    border: none;
+}
+.check__box 
+{
+    padding: 15px;
+    height: 46px;
+    outline: none;
+    width: 100%;
+    border: none;
+}
+.form__input-2 
+{
+    width: 50%;
+}
+.select__box 
+{
+    
+    width: 100%;
+    padding: 15px;
+    height: 46px
+}
+.search__box-login
+{
+    color: #ffff;
+    padding: 15px 18px;
+    border-radius: 34px;
+     width:100%;
+    background: #31124b;
+    border: 2px solid #31124b;
+    cursor: pointer;
+    margin-top: 40px;
+
+    font-size: 16px;
+}
+.search__box-login:hover 
+{
+   opacity: 0.4;
+}
+.content__form-box 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content__tour 
+{
+    height: 1700px;
+}
+
+.tour__flex 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1700px;
+}
+
+.tour__all-txt 
+{
+       text-align: center;
+       margin-bottom: 20px;
+}
+.tour__heading 
+{
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 40px;
+}
+.tour__about 
+{
+  
+    line-height: 28px;
+    font-size: 14px;
+}
+.tour__all-box 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     width: 100%;
+}
+.tour__date
+{
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    border: 2px solid #fa9e1b;
+    padding: 8px 14px;
+    border-radius: 24px;
+    background: #fa9e1b;
+    font-size: 12px;
+    margin-bottom: 80px;
+}
+.tour__heading-box 
+{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.tour__about-box 
+{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.tour__icon 
+{
+    text-align: center;
+    color: #fa9e1b;
+     margin-bottom: 28%;
+}
+.tour__icon 
+{
+    text-align: center;
+    color: #fa9e1b;
+     margin-bottom: 22%;
+}
+.tour__box 
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 420px;
+}
+.tour__see-more 
+{
+    width: 100%;
+}
+.tour__date 
+{
+    width: 100%;
 }
 }
 
@@ -137,5 +290,129 @@
 .content__src-box 
 {
     display: block;
+    margin-bottom: 40px;
+}
+#content
+{
+    height: 800px;
+}
+.form__input 
+{
+    padding: 10px;
+    width: 41%;
+}
+.heading__form 
+{
+    color: #ffff;
+    margin-bottom: 20px;
+}
+.destination__box 
+{
+    width: 100%;
+    padding: 15px;
+    height: 46px;
+    outline: none;
+    border: none;
+}
+.check__box 
+{
+    padding: 15px;
+    height: 46px;
+    outline: none;
+    width: 100%;
+    border: none;
+}
+.form__input-2 
+{
+    width: 20%;
+}
+.select__box 
+{
+    
+    width: 100%;
+    padding: 15px;
+    height: 46px
+}
+.search__box-login
+{
+    color: #ffff;
+    padding: 15px 18px;
+    border-radius: 34px;
+     width:200px;
+    background: #31124b;
+    border: 2px solid #31124b;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: -54%;
+    font-size: 16px;
+}
+.search__box-login:hover 
+{
+   opacity: 0.4;
+}
+.content__form-box 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content__tour 
+{
+    height: 1600px;
+}
+
+.tour__flex 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1600px;
+}
+
+.tour__all-txt 
+{
+       text-align: center;
+       margin-bottom: 20px;
+}
+.tour__heading 
+{
+    margin-bottom: 10px;
+}
+.tour__about 
+{
+  
+    line-height: 28px;
+}
+.tour__all-box 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     
+}
+.tour__icon 
+{
+    text-align: center;
+    color: #fa9e1b;
+     margin-bottom: 22%;
+}
+.tour__box 
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 400px;
+    height: 420px;
+}
+.tour__see-more 
+{
+    width: 100%;
+}
+}
+@media(min-width:1021px){
+    .tour__about 
+{
+    width: 700px;
 }
 }
