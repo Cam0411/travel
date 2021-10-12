@@ -635,8 +635,8 @@
 }
 .offer__box-all-txt img
 {
-    width: 100px;
-    margin-bottom: 28px;
+    width: 120px;
+    margin-bottom: 75px;
 }
 .offer__about
 {
@@ -659,6 +659,7 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
 }
 @media(min-width:1021px){
     .tour__about 
