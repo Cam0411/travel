@@ -471,7 +471,7 @@ appearance: none;
 -moz-appearance: none;
 appearance: none;
 cursor: pointer;
-    
+    background: #fff;
 }
 .search__box-login
 {
