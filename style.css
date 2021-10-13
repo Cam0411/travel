@@ -474,6 +474,11 @@ cursor: pointer;
     background: #fff;
 outline: none;
 }
+.select__box option
+{
+    padding: 10px;
+    cursor: pointer;
+}
 .search__box-login
 {
     color: #ffff;
@@ -488,6 +493,7 @@ outline: none;
 -moz-appearance: none;
 appearance: none;
     font-size: 16px;
+    
 }
 
 .search__box-login:hover 
@@ -873,7 +879,7 @@ appearance: none;
     padding: 20px;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     position: relative;
 }
@@ -893,7 +899,7 @@ appearance: none;
 {
     position: absolute;
     top: -20%;
-    left: 18%;
+    left: 6%;
     background: #fff;
     padding: 10px 20px 10px 20px;
        font-size: 14px;
@@ -915,7 +921,7 @@ appearance: none;
     width: 72px;
     position: absolute;
     top: -10%;
-    left: 16%;
+    left: 6%;
     color: #fff;
     display: flex;
     justify-content: center;
