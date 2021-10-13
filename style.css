@@ -260,7 +260,7 @@ a.header__hover:hover
     width: 250px;
     position: relative;
     font-size: 20px;
-    border-radius: 24px;
+    border-radius: 44px;
     text-align: center;
     background: linear-gradient(to right, #fa9e1b ,#8d4fff );
     overflow: hidden;
