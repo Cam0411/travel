@@ -472,7 +472,7 @@ appearance: none;
     appearance: none;
 cursor: pointer;
     background: #fff;
-
+outline: none;
 }
 .search__box-login
 {
