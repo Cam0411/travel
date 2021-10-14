@@ -477,6 +477,70 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+#content__trending 
+{
+    height: 950px;
+    position: relative;
+}
+.content__trending-flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 950px;
+    flex-direction: column;
+}
+.treding__all-box 
+{
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.trending__box-7 
+{
+    display: none;
+}
+.trending__box-8
+{
+    display: none;
+}
+.trending__heading 
+{
+    font-size: 20px;
+}
+.contact__contact-box 
+{
+    width: 100%;
+}
+.contact__box-heading 
+{
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.contact__txt 
+{
+    width: 97%;
+    padding: 10px 14px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 20px;
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+    outline: none;
+    font-size: 12px;
+}
+.contact__txt-3 
+{
+    margin-bottom: 40px;
+    
+}
+.contact__submit 
+{
+    width: 100%;
+}
+
 }
 @media (max-width:400px){
     #content__package 
@@ -891,6 +955,18 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.trending__box-7 
+{
+    display: none;
+}
+.trending__box-8
+{
+    display: none;
+}
+.contact__contact-box 
+{
+    width: 100%;
+}
 }
 @media(min-width:1021px){
     .tour__about 
@@ -905,4 +981,5 @@
 {
     width: 250px;
 }
+
 }
