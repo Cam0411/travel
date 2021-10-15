@@ -1148,7 +1148,7 @@ appearance: none;
 }
 #footer
 {
-    height: 500px;
+    height: 400px;
     background: #31124b;
 }
 .footer__flex 
@@ -1156,7 +1156,7 @@ appearance: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 400px;
     flex-wrap: wrap;
 }
 .footer__all-txt 
