@@ -1159,6 +1159,10 @@ appearance: none;
     height: 400px;
     flex-wrap: wrap;
 }
+.footer__blog-heading 
+{
+    text-align: center;
+}
 .footer__all-txt 
 {
     padding: 20px;

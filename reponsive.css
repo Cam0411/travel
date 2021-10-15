@@ -549,7 +549,7 @@
 {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     height: 1300px;
     flex-direction: column;
 }
@@ -558,12 +558,17 @@
     margin: 0;
     margin-top: 20px;
     font-size: 14px;
+
+}
+.footer__all-txt 
+{
+    text-align: center;
 }
 .footer__tags 
 {
     margin: 0;
     margin-bottom: 20px;
-    
+    text-align: center;
 }
 .footer__flex img 
 {
@@ -573,6 +578,7 @@
 .footer__contact-info 
 {
     margin: 0;
+    text-align: center;
 }
 .footer__conctact-heading 
 {
