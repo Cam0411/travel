@@ -1,0 +1,357 @@
+@media (max-width:600px){
+    .header__icon 
+    {
+        display: block;
+        background:rgba(54, 19, 84, .6) ;
+    }
+    .header__icon-flex 
+    {
+        display: none;
+    }
+    .header__menu
+    {
+        display: none;
+    }
+    .header__search 
+    {
+       position: absolute;
+       right: 12%;
+       padding: 10px;
+       color: #ffff;
+       margin-top: 5px;
+       cursor: pointer;
+       transition: 0.4s;
+    }
+    .menu__tablet 
+    {
+        display: block;
+    }
+    #slider 
+    {
+        margin-top: -140px;
+        height: 120vh;
+    }
+    .slider__flex 
+    {
+        height: 900px;
+    }
+    .modal__content
+    {
+        width: 100%;
+    }
+    .slider__discover 
+{
+    color: #ffff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 60px;
+}
+.dis__font
+{
+    font-family: 'Concert One', cursive;
+    font-size: 30px;
+
+}
+.heading__travel 
+{
+    font-size: 20px;
+}
+
+.slider__explore
+{
+    width: 200px;
+}
+#content__intro 
+{
+    height: 800px;
+}
+.intro__flex 
+{
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.intro__flex img 
+{
+    width: 100%;
+}
+.intro__all-txt 
+{
+    padding: 10px;
+    text-align: center;
+}
+.tour__see-more  
+{
+ 
+    width: 100%;
+}
+.stat__num-2 
+{
+    text-align: center;
+    line-height:20px ;
+    font-size: 15px;
+
+}
+.stat__box-1  i
+{
+   color: #fa9e1b;
+    padding: 5px;
+    font-size: 17px;
+   float: left;
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-top: 15px;
+}
+.stat__box-1 
+{
+    display: flex;
+}
+.stat__color 
+{
+    font-size: 12px;
+    font-weight: 400;
+    color: #888;
+}
+.stat__length 
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.stat__txt 
+{
+    font-size: 10px;
+}
+.tour__see-more-2 
+{
+    margin-left: 0px;
+    margin-right: 0;
+}
+.thai__heading 
+{
+    color: #ffff;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.thai__price 
+{
+    color: #ffff;
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+.tour__see-more-2 
+{
+    margin-left: 0px;
+    width: 206px;
+}
+#footer
+{
+    height: 1300px;
+    background: #31124b;
+}
+.footer__flex 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1300px;
+    flex-direction: column;
+}
+.footer__blog 
+{
+    margin: 0;
+    margin-top: 20px;
+    font-size: 14px;
+
+}
+.footer__all-txt 
+{
+    text-align: center;
+}
+.footer__tags 
+{
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.footer__flex img 
+{
+    padding: 10;
+    margin-left: -10px;
+}
+.footer__contact-info 
+{
+    margin: 0;
+    text-align: center;
+}
+.footer__conctact-heading 
+{
+    margin: 0;
+}
+.blog-box__heading 
+{
+    font-size: 13px;
+}
+#content__list 
+{
+    height: 900px;
+}
+.flex__list 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.content__all-list-box 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+}
+.content__box-list 
+{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 100%;
+}
+.content__box-list i 
+{
+    font-size: 30px;
+    color: #fa9e1b;
+    margin-bottom: 20px;
+}
+.list__num 
+{
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+}
+@media (max-width:400px){
+   
+
+}
+@media (min-width:600px) and (max-width:1020px){
+    .header__menu
+    {
+        display: none;
+    }
+    .header__search 
+{
+   position: absolute;
+   right: 6%;
+   padding: 10px;
+   color: #ffff;
+   margin-top: 5px;
+   cursor: pointer;
+   transition: 0.4s;
+}
+.menu__tablet 
+{
+    display: block;
+}
+.slider__discover 
+{
+    color: #ffff;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    line-height: 80px;
+}
+.dis__font
+{
+    font-family: 'Concert One', cursive;
+    font-size: 60px;
+
+}
+
+#content__intro 
+{
+    height: 900px;
+}
+.intro__flex 
+{
+    display: flex;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.intro__flex img 
+{
+    width: 80%;
+}
+.intro__all-txt 
+{
+    padding: 10px;
+    text-align: center;
+}
+.tour__see-more  
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.tour__see-more-2 
+{
+    margin-left: 140px;
+    margin-right: 0;
+}
+#footer
+{
+    height: 800px;
+    background: #31124b;
+}
+.footer__flex 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    flex-wrap: wrap;
+}
+.footer__about 
+{
+    width: 276px;
+}
+}
+@media(min-width:1021px){
+    .tour__about 
+{
+    width: 700px;
+}
+.offer__about
+{
+    width: 220px;
+}
+.client__txt-about  
+{
+    width: 250px;
+}
+.footer__about 
+{
+    width: 276px;
+}
+}
+@media(min-width:1021px) and (max-width:1100px){
+    #footer
+{
+    height: 700px;
+    background: #31124b;
+}
+.footer__flex 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-wrap: wrap;
+}
+}
