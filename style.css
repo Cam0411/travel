@@ -1259,7 +1259,14 @@ appearance: none;
    margin-bottom: 12px;
    text-transform: capitalize;
    color: #fff;
+   cursor: pointer;
+   transition: 0.4s;
    font-size: 10px;
+}
+
+.footer__tags li:hover 
+{
+    background: #fa9e1b;
 }
 .footer__contact-info 
 {
