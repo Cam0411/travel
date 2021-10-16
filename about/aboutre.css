@@ -238,7 +238,7 @@
    
 
 }
-@media (min-width:600px) and (max-width:1020px){
+@media (min-width:601px) and (max-width:1020px){
     .header__menu
     {
         display: none;
@@ -294,6 +294,10 @@
     padding: 10px;
     text-align: center;
 }
+.thai__heading
+{
+    font-size: 40px;
+}
 .tour__see-more  
 {
     margin-left: auto;
@@ -303,6 +307,23 @@
 {
     margin-left: 140px;
     margin-right: 0;
+}
+.content__box-list .fish 
+{
+    color: #ff0000;
+}
+.content__box-list .goble 
+{
+color: #8d4fff;
+}
+.content__box-list .suitcase 
+{
+color: #350a4e;
+}
+.list__num 
+{
+    font-size: 34px;
+    margin-bottom: 20px;
 }
 #footer
 {
@@ -321,6 +342,7 @@
 {
     width: 276px;
 }
+
 }
 @media(min-width:1021px){
     .tour__about 
@@ -353,5 +375,10 @@
     align-items: center;
     height: 700px;
     flex-wrap: wrap;
+}
+.list__num 
+{
+    font-size: 34px;
+    margin-bottom: 20px;
 }
 }
