@@ -315,6 +315,14 @@
     margin-right: 0;
   
 }
+.stat__num-2 
+{
+    font-size: 20px;
+}
+.stat__length
+{
+    width: 60%;
+}
 .content__box-list .fish 
 {
     color: #ff0000;
