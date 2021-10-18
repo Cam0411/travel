@@ -754,15 +754,15 @@ appearance: none;
     font-size: 12px;
     font-weight: 800;
     transition: 0.4s;
-    margin-top: 0px;
+    margin-top: 1px;
     background: #31124b;
     border-radius: 34px;
     padding: 12px 18px;
     color: #fff;
     width: 160px;
     text-align: center;
-    margin-left: 62%;
-    cursor: pointer;
+
+     cursor: pointer;
 
 }
 .offer__read-more:hover 
