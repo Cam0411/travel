@@ -168,11 +168,11 @@ a.header__hover:hover
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-image:  url(../asset/blog_background.jpg);
+    background-image:  url(../asset/blog_background-2.jpg);
     overflow: hidden;
      position: relative;
      top: -120px;
-     background-attachment: fixed;
+  
    z-index: -1;
 }
 .modal
