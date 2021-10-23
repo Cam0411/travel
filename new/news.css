@@ -168,11 +168,11 @@ a.header__hover:hover
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-image:  url(../asset/blog_background.jpg);
+    background-image:  url(../asset/blog_background-2.jpg);
     overflow: hidden;
      position: relative;
      top: -120px;
-     background-attachment: fixed;
+  
    z-index: -1;
 }
 .modal
@@ -348,6 +348,7 @@ a.header__hover:hover
 .blog__left-3 
 {
     margin-top: 60px;
+    position: relative;
 }
 .blog__input-box 
 {
@@ -575,4 +576,30 @@ a.header__hover:hover
     justify-content: center;
     align-items: center;
     animation: fadeUp2 ease-in-out 0.2s;
+}
+.blog__left
+{
+    position: relative;
+}
+.blog__left-day 
+{
+    background-color: #fa9e1b;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.blog__left-heading 
+{
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 2px;
 }
