@@ -573,6 +573,7 @@ appearance: none;
     position: relative;
     color: #000;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .offer__2-nav > li > a 
