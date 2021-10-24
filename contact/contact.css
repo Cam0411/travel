@@ -286,7 +286,7 @@ a.header__hover:hover
 }
 #content__contact 
 {
-    height:620px;
+    height:720px;
      margin-top: -70px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -294,7 +294,7 @@ a.header__hover:hover
 }
 .content__contact-flex 
 {
-    height: 620px;
+    height: 680px;
     display: flex;
     justify-content: center;
     align-items: center;
